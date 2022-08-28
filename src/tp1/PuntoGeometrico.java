@@ -1,8 +1,13 @@
 package tp1;
 
 public class PuntoGeometrico {
-    private double x = 0;
-    private double y = 0;
+    private double x;
+    private double y;
+
+    public PuntoGeometrico() {
+        this.x = 0;
+        this.y = 0;
+    }
 
     public PuntoGeometrico(double x, double y) {
         this.x = x;

@@ -5,12 +5,12 @@ import java.time.Period;
 
 public class Persona {
     private int dni;
-    private String nombre = "N";
-    private String apellido = "N";
-    private LocalDate fechaNacimiento = LocalDate.of(2000,1,1);
-    private String sexo = "Femenino";
-    private double peso = 1.00;
-    private double altura = 1.00;
+    private String nombre;
+    private String apellido;
+    private LocalDate fechaNacimiento;
+    private String sexo;
+    private double peso;
+    private double altura;
     private static final double MAX_IMC=25;
     private static final double MIN_IMC=18.5;
     private static final int MAYOR_EDAD =18;
@@ -18,10 +18,16 @@ public class Persona {
 
     public Persona(int dni) {
         this.dni = dni;
+        nombre = "N";
+        apellido = "N";
+        fechaNacimiento = LocalDate.of(2000,1,1);
+        sexo = "Femenino";
+        peso = 1.00;
+        altura = 1.00;
     }
 
     public Persona(int dni, String nombre, String apellido) {
-        this.dni = dni;
+        this(dni);
         this.nombre = nombre;
         this.apellido = apellido;
     }
