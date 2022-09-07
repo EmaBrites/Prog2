@@ -26,7 +26,7 @@ public class Main {
         System.out.println(serie.getCalificacion());*/
 
         // tp2.ej4
-        Cancha f1 = new Cancha("Futbol1", "futbol", 400);
+        /*Cancha f1 = new Cancha("Futbol1", "futbol", 400);
         Cancha f2 = new Cancha("Futbol2", "futbol", 400);
 
         Cancha p1 = new Cancha("Paddle1", "paddle", 100);
@@ -49,7 +49,7 @@ public class Main {
         sistema.agregarTurno(t2);
         sistema.agregarTurno(t3);
 
-        System.out.println(sistema.getTurnos());
+        System.out.println(sistema.getTurnos());*/
 
     }
 }
